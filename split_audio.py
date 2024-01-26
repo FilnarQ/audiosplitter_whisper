@@ -175,7 +175,7 @@ def select_input_folder():
 
 
 def main():
-    input_folder = select_input_folder()
+    input_folder = "/opt/audiodata"
     settings = load_settings(CONFIG_PATH)
     process_audio_files(input_folder, settings)
     
